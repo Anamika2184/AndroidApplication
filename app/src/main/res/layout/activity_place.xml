@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/touristPlacesText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tourist Places of Sylhet"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:padding="16dp"/>
+
+    <Button
+        android:id="@+id/bichnakandi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bichnakandi" />
+
+    <Button
+        android:id="@+id/Jaflong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jaflong" />
+
+    <Button
+        android:id="@+id/sreemongol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sreemongol" />
+
+    <Button
+        android:id="@+id/lalakhal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lalakhal" />
+
+    <Button
+        android:id="@+id/sunamganj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sunamganj" />
+
+</LinearLayout>
